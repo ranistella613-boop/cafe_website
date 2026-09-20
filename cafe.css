@@ -73,6 +73,11 @@ footer{
     margin-left: 1410px;
 }
 
+hr{
+      width: 250vw;
+      box-sizing: border-box;
+     margin: 20px 0;
+ }
 
 
 
