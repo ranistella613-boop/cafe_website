@@ -1,6 +1,7 @@
 <html>
     <head>
          <link rel="stylesheet" href="cafe.css">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>Cafe</title>
         <link rel="icon" href="OIP.webp">
@@ -38,7 +39,46 @@
                 font-size: 20px;
            }
 
+                 @media screen and (max-width: 600px){
+                .main{
+                    width: 90%;
+                    height: 200px;
+                    font-size: 25px;
+                }
 
+                .box1 nav li{
+                    font-size: 25px;
+                    margin-right: 1px;
+                }
+
+                nav{
+                    height: 125px;
+                }
+
+                h1{
+                    font-size: 55px;
+                }
+
+                ul{
+                    margin-right: 200px;
+                }
+
+                .box5{
+                    height: 200px;
+                    font-size: 28px;
+                }
+
+                .box6 button{
+                    font-size: 40px;
+                    margin-left: 1350px;
+                }
+
+                .item1,
+                .item2,
+                .item3{
+                margin-left: 60px;
+                }
+                }
             </style>
             </head>
 
@@ -146,12 +186,13 @@
                     </footer>
                     </div>
 
-                    <button style="border: 2px dashed wheat;
+                    <div class="box6">
+                    <button
+                    style="border: 2px dashed wheat;
                     margin-top: 20px;
-                    margin-left: 90%;
                     background-color: rgb(157, 59, 91);
-                    font-size: 20px;
                     text-decoration: none;"><a href="index.html">Back</a></button>
+                    </div>
 
         </div>
     </body>

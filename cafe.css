@@ -1,4 +1,6 @@
-
+.box1{
+    width: 1520px;
+}
 
 .box2{
           width: 1520px;
@@ -13,11 +15,13 @@
     display: inline-block;
       border-radius: 10px;
       background-color: wheat;
+      margin-left: 60px;
 }
 
 .box3{
     display: flex;
     justify-content: space-between;
+    margin-left: 200px;
 }
 
 span{
@@ -51,11 +55,22 @@ h3{
     background-color:  rgb(157, 59, 91);
     height: 130px;
     text-align: center;
+
+    width: 1520px;
+}
+
+.box4{
+    width: 1520px;
 }
 
 footer{
     padding-top: 15px;
     color: wheat;
+}
+
+.box6 button{
+    font-size: 30px;
+    margin-left: 1410px;
 }
 
 
